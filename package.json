@@ -1,0 +1,24 @@
+{
+  "name": "gitlab-pipelines",
+  "version": "0.0.1-beta.0",
+  "description": "Simple script to delete old gitlab pipelines",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:dommangetnicolas/gitlab-pipelines.git"
+  },
+  "author": "Nicolas Dommanget-Muller <dev@nicolas-dmg.fr>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dommangetnicolas/gitlab-pipelines/issues"
+  },
+  "homepage": "https://github.com/dommangetnicolas/gitlab-pipelines#readme",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "chalk": "^4.1.0",
+    "dotenv": "^8.2.0"
+  }
+}
